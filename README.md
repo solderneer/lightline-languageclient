@@ -1,4 +1,4 @@
-# lightline-languageserver
+# lightline-languageclient
 This plugin provides LanguageClient-neovim integration for the lightline plugin.
 
 ## Installation
@@ -14,7 +14,7 @@ Plug 'autozimu/LanguageClient-neovim', {
     \ }
 Plug 'itchyny/lightline.vim'
 
-Plug 'solderneer/lightline-languageserver'
+Plug 'solderneer/lightline-languageclient'
 
 call plug#end()
 ```
@@ -25,9 +25,9 @@ call plug#end()
 
 ```vim
 let g:lightline.component_expand = {
-      \  'warning_count': 'lightline#languageserver#warnings',
-      \  'error_count': 'lightline#languageserver#errors',
-      \  'linter_ok': 'lightline#languageserver#ok',
+      \  'warning_count': 'lightline#languageclient#warnings',
+      \  'error_count': 'lightline#languageclient#errors',
+      \  'linter_ok': 'lightline#languageclient#ok',
       \ }
 ```
 
@@ -59,20 +59,20 @@ let g:lightline.active = {
 
 The text for the status can be replaced by overriding the following variables.
 
-`g:lightline#languageserver#warnings` defines the warning text. Default is `W:`
+`g:lightline#languageclient#warnings` defines the warning text. Default is `W:`
 
-`g:lightline#languageserver#errors` defines the error text. Default is `E:`
+`g:lightline#languageclient#errors` defines the error text. Default is `E:`
 
-`g:lightline#languageserver#ok` defines the ok text. Default is `OK`
+`g:lightline#languageclient#ok` defines the ok text. Default is `OK`
 
 ### Using icons as indicators
 
 You can replace the text with icons, if you are using a patched font with FontAwesome or Powerline. A icon font can be specified using the unicode value, or by copying the literal from a website. For example, the config seen in the screenshot is shown below.
 
 ```vim
-let g:lightline#languageserver#warnings = "\uf071 "
-let g:lightline#languageserver#errors = "\uf05e "
-let g:lightline#languageserver#ok = "\uf00c "
+let g:lightline#languageclient#warnings = "\uf071 "
+let g:lightline#languageclient#errors = "\uf05e "
+let g:lightline#languageclient#ok = "\uf00c "
 ```
 
 ## License
