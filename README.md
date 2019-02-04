@@ -1,6 +1,8 @@
 # lightline-languageclient
 This plugin provides LanguageClient-neovim integration for the lightline plugin.
 
+![Screenshot](screenshot.png)
+
 ## Installation
 Install using any plugin manager, for example shown here with vim-plug
 
