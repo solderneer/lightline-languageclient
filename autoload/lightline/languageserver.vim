@@ -1,6 +1,6 @@
-let s:indicator_warnings = get(g:, 'lightline#languageserver#indicator_warnings', 'W: ')
-let s:indicator_errors = get(g:, 'lightline#languageserver#indicator_errors', 'E: ')
-let s:indicator_ok = get(g:, 'lightline#langaugeserver#indicator_ok', 'OK')
+let s:indicator_warnings = get(g:, 'lightline#languageserver#warnings', 'W: ')
+let s:indicator_errors = get(g:, 'lightline#languageserver#errors', 'E: ')
+let s:indicator_ok = get(g:, 'lightline#langaugeserver#ok', 'OK')
 
 """""""""""""""""""""""""""""""""""""""""
 " Lightline components
