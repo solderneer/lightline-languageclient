@@ -1,10 +1,10 @@
 # lightline-languageclient
-This plugin provides LanguageClient-neovim integration for the lightline plugin.
+This plugin provides [LanguageClient-neovim](https://github.com/autozimu/LanguageClient-neovim) integration for the [lightline.vim](https://github.com/itchyny/lightline.vim) plugin.
 
 ![Screenshot](screenshot.png)
 
 ## Installation
-Install using any plugin manager, for example shown here with vim-plug
+Install using any plugin manager, for example shown here with [vim-plug](https://github.com/junegunn/vim-plug)
 
 ```vim
 call plug#begin()
@@ -79,4 +79,4 @@ let g:lightline#languageclient#ok = "\uf00c "
 
 ## License
 
-Released under the MIT license.
+Released under the [MIT license](./LICENSE)
